@@ -1,0 +1,15 @@
+class {
+  onCreate() {
+    this.state = {
+      count: 0,
+    };
+  }
+  increment() {
+    this.state.count++;
+  }
+}
+
+<h2>The classic counter*</h2>
+<p>The current count is ${state.count}</p>
+<button on-click("increment")>Click me!</button>
+<p><small>*Client side Javascript isn't set up yet.</small></p>

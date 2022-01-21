@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "arc": "arc",
+    "start": "npm run arc sandbox"
+  },
+  "dependencies": {
+    "@architect/architect": "^9.5.4",
+    "@architect/functions": "^4.1.1",
+    "@marko/vite": "^2.2.6",
+    "marko": "^5.17.10",
+    "vite": "^2.7.13",
+    "vite-plugin-ssr": "^0.3.46"
+  }
+}
